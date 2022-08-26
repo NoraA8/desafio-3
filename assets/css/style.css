@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: #000000;
+  color: #fff;
+}
+h1 {
+  font-family: "Raleway:wght@500", sans-serif;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+h2 {
+  font-family: "Raleway:wght@500", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 40px;
+}
+h3 {
+  font-family: "Raleway:wght@300", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.text-left {
+  font-family: "Raleway:wght@300", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  width: 40%;
+}
+.padding {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.padding-more {
+  padding: 120px 50px;
+}
+.w-400 {
+  width: 500px;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+  font-family: "Raleway:wght@300", sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+.text-size {
+  font-family: "Raleway:wght@300", sans-serif;
+  font-size: 25px;
+}
+.background {
+  background: #1e1a13;
+}
+.icon {
+  font-size: 50px;
+  padding-left: 40px;
+}
